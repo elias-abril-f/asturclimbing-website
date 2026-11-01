@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>B2B: Wholesale, Custom Branding &amp; Assessments | Astur Climbing</title>
+    <meta
+      name="description"
+      content="Astur Climbing for climbing gyms, retailers, coaches and teams. Wholesale training equipment, custom branding, finger strength assessments and Project Hangman. Request a quote."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://asturclimbing.com/b2b/" />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="B2B: Wholesale, Custom Branding &amp; Assessments | Astur Climbing"
+    />
+    <meta
+      property="og:description"
+      content="Astur Climbing for climbing gyms, retailers, coaches and teams. Wholesale training equipment, custom branding, finger strength assessments and Project Hangman."
+    />
+    <meta property="og:url" content="https://asturclimbing.com/b2b/" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://asturclimbing.com/assets/images/hero-products.webp"
+    />
+    <meta
+      property="og:image:alt"
+      content="Astur Climbing hardwood lifting blocks and hangboards"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="B2B: Wholesale, Custom Branding &amp; Assessments | Astur Climbing"
+    />
+    <meta
+      name="twitter:description"
+      content="Astur Climbing for climbing gyms, retailers, coaches and teams. Wholesale training equipment, custom branding, finger strength assessments and Project Hangman."
+    />
+    <meta
+      name="twitter:image"
+      content="https://asturclimbing.com/assets/images/hero-products.webp"
+    />
+
+    <!-- JSON-LD: WebPage -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "B2B: Wholesale, Custom Branding & Assessments",
+        "url": "https://asturclimbing.com/b2b/",
+        "description": "Astur Climbing for climbing gyms, retailers, coaches and teams.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Astur Climbing",
+          "url": "https://asturclimbing.com/"
+        }
+      }
+    </script>
+
+    <!-- Favicons -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/images/favicons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/assets/images/favicons/favicon.svg"
+    />
+    <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/images/favicons/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="AsturClimbing" />
+    <link rel="manifest" href="/assets/images/favicons/site.webmanifest" />
+    <meta name="theme-color" content="#848E78" />
+
+    <!-- Bootstrap -->
+    <link
+      href="../assets/lib/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Template stylesheets -->
+    <link href="../assets/lib/animate.css/animate.css" rel="stylesheet" />
+
+    <!-- Main stylesheet and color file -->
+    <link href="../assets/css/style.css" rel="stylesheet" />
+    <link
+      id="color-scheme"
+      href="../assets/css/colors/default.css"
+      rel="stylesheet"
+    />
+    <link href="../assets/css/typography.css" rel="stylesheet" />
+    <link href="../assets/css/brand-overrides.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* ── Page hero ── */
+      .b2b-hero {
+        background-color: var(--astur-dark);
+        background-image: url("../assets/images/hero-products.webp");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding: 140px 0 80px;
+        text-align: center;
+      }
+      .b2b-hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(37, 35, 35, 0.72);
+      }
+      .b2b-hero .hero-content {
+        position: relative;
+        z-index: 2;
+      }
+      .b2b-hero .hero-tag {
+        color: var(--sage-green);
+        font-size: 1.2rem;
+        letter-spacing: 0.15em;
+        margin-bottom: 14px;
+        text-transform: uppercase;
+      }
+      .b2b-hero h1 {
+        color: var(--summit-white);
+        font-size: var(--font-size-h1-screen);
+        margin-bottom: 0.5rem;
+      }
+      .b2b-hero .hero-text {
+        color: var(--summit-white);
+        font-size: 1.625rem;
+        margin: 0 auto 28px;
+        max-width: 640px;
+      }
+      .b2b-hero .btn {
+        margin: 4px;
+      }
+
+      /* ── Offer cards ── */
+      .b2b-cards {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .b2b-cards::before,
+      .b2b-cards::after {
+        display: none;
+      }
+      .card-col {
+        display: flex;
+        margin-bottom: 30px;
+      }
+      .resource-card .card-tag {
+        align-self: flex-start;
+      }
+      .resource-card ul {
+        color: #555;
+        font-size: 1.375rem;
+        line-height: 1.7;
+        margin: 0;
+        padding-left: 18px;
+      }
+
+      /* ── Small icon + text blocks ── */
+      .b2b-item {
+        margin-bottom: 36px;
+        text-align: center;
+      }
+      .b2b-item i {
+        color: var(--sage-green);
+        font-size: 2.2rem;
+        margin-bottom: 16px;
+      }
+      .b2b-item h3 {
+        color: var(--astur-dark);
+        font-family: var(--font-display);
+        font-size: 1.4rem;
+        letter-spacing: 0.05em;
+        margin: 0 0 10px;
+        text-transform: uppercase;
+      }
+      .b2b-item p {
+        color: #555;
+        font-size: 1.375rem;
+        line-height: 1.7;
+        margin: 0;
+      }
+      .b2b-step {
+        border: 2px solid var(--sage-green);
+        border-radius: 50%;
+        color: var(--sage-green);
+        display: inline-block;
+        font-family: var(--font-display);
+        font-size: 1.4rem;
+        height: 40px;
+        line-height: 36px;
+        margin-bottom: 16px;
+        width: 40px;
+      }
+      .b2b-alt {
+        background-color: var(--sage-green-10);
+      }
+
+      /* ── Catalogue band ── */
+      .b2b-catalogue {
+        background-color: var(--astur-dark);
+        text-align: center;
+      }
+      .b2b-catalogue .module-title {
+        color: var(--summit-white);
+      }
+      .b2b-catalogue .module-subtitle {
+        color: var(--summit-white);
+        margin-bottom: 28px;
+      }
+
+      /* ── FAQ ── */
+      .b2b-faq h3 {
+        color: var(--astur-dark);
+        font-family: var(--font-display);
+        font-size: 1.4rem;
+        letter-spacing: 0.05em;
+        margin: 0 0 8px;
+        text-transform: uppercase;
+      }
+      .b2b-faq p {
+        color: #555;
+        font-size: 1.375rem;
+        line-height: 1.7;
+        margin-bottom: 28px;
+      }
+
+      /* ── Enquiry form ── */
+      #enquire select.form-control {
+        height: 33px;
+      }
+
+      @media (max-width: 767px) {
+        .b2b-hero {
+          padding: 120px 0 60px;
+        }
+      }
+    </style>
+  </head>
+
+  <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+    <main>
+      <div class="page-loader">
+        <div class="loader">Loading...</div>
+      </div>
+
+      <!-- NAV BAR -->
+      <nav class="navbar navbar-custom navbar-fixed-top one-page">
+        <div
+          class="container"
+          style="width: 100%; padding-left: 50px; padding-right: 50px"
+        >
+          <div class="navbar-header">
+            <button
+              class="navbar-toggle"
+              type="button"
+              data-toggle="collapse"
+              data-target="#custom-collapse"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand hide-custom" href="/">Astur Climbing</a>
+          </div>
+          <div class="collapse navbar-collapse" id="custom-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a class="section-scroll" href="/">Home</a>
+              </li>
+              <li><a class="section-scroll" href="/shop/">Shop</a></li>
+              <li>
+                <a
+                  class="section-scroll"
+                  href="https://book.squareup.com/appointments/6hqxcr5qkjc8wm/location/LWR1GPZSGH6B0/services"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Book Now</a
+                >
+              </li>
+              <li><a class="section-scroll" href="/#contact">Contact</a></li>
+              <li>
+                <a class="section-scroll" href="/resources/">Resources</a>
+              </li>
+              <li class="active">
+                <a class="section-scroll" href="/b2b/">B2B</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- HERO BANNER -->
+      <div class="b2b-hero">
+        <div class="container hero-content">
+          <p class="font-alt hero-tag">B2B</p>
+          <h1 class="font-alt">Astur Climbing for Business</h1>
+          <p class="hero-text">
+            Training equipment and finger strength testing for climbing gyms,
+            retailers, coaches and teams.
+          </p>
+          <a href="#enquire" class="btn btn-border-w btn-round"
+            >Request a quote</a
+          >
+          <a href="#catalogue" class="btn btn-border-w btn-round"
+            >View the catalogue</a
+          >
+        </div>
+      </div>
+
+      <div class="main">
+        <!-- ── WHO WE WORK WITH ── -->
+        <section class="module" id="partners">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2 text-center">
+                <h2 class="module-title font-alt">Who We Work With</h2>
+                <div class="module-subtitle font-serif">
+                  Give your climbers and customers equipment and data that help
+                  them train with purpose.
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-4 b2b-item">
+                <i class="fa-solid fa-dumbbell" aria-hidden="true"></i>
+                <h3>Climbing Gyms</h3>
+                <p>
+                  Stock your gym shop, add testing to your member offer, and
+                  put your brand on the tools your climbers use.
+                </p>
+              </div>
+              <div class="col-xs-12 col-sm-4 b2b-item">
+                <i class="fa-solid fa-store" aria-hidden="true"></i>
+                <h3>Retailers</h3>
+                <p>
+                  Add a focused range of hardwood lifting edges, hangboards and
+                  training accessories to your climbing category.
+                </p>
+              </div>
+              <div class="col-xs-12 col-sm-4 b2b-item">
+                <i class="fa-solid fa-people-group" aria-hidden="true"></i>
+                <h3>Coaches &amp; Teams</h3>
+                <p>
+                  Equip your athletes and base their training on objective
+                  measurements of finger strength.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ── WHAT WE OFFER ── -->
+        <section class="module b2b-alt" id="offer">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2 text-center">
+                <h2 class="module-title font-alt">What We Offer</h2>
+                <div class="module-subtitle font-serif">
+                  Order one service or combine them into a single partnership.
+                </div>
+              </div>
+            </div>
+            <div class="row b2b-cards">
+              <div class="col-xs-12 col-sm-4 card-col">
+                <div class="resource-card">
+                  <span class="card-tag tag-app">Wholesale</span>
+                  <div class="card-icon">
+                    <i class="fa-solid fa-boxes-stacked" aria-hidden="true"></i>
+                  </div>
+                  <h3>Wholesale &amp; Retail</h3>
+                  <ul>
+                    <li>Volume pricing, quoted to suit your order</li>
+                    <li>Lifting edges, hangboards and accessories</li>
+                    <li>Ideal for gym shops and climbing retailers</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 card-col">
+                <div class="resource-card">
+                  <span class="card-tag tag-guide">Branding</span>
+                  <div class="card-icon">
+                    <i class="fa-solid fa-pen-ruler" aria-hidden="true"></i>
+                  </div>
+                  <h3>Custom Branding</h3>
+                  <ul>
+                    <li>Your logo and colours in the Project Hangman app</li>
+                    <li>Co-branded products for your gym or team</li>
+                    <li>Options confirmed with your quote</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 card-col">
+                <div class="resource-card">
+                  <span class="card-tag tag-app">Testing</span>
+                  <div class="card-icon">
+                    <i
+                      class="fa-solid fa-magnifying-glass-chart"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
+                  <h3>Assessments &amp; Hangman</h3>
+                  <ul>
+                    <li>Group assessments for gyms, teams and squads</li>
+                    <li>Critical Force, RFD, MVC and Power Endurance</li>
+                    <li>Project Hangman wireless force measurement</li>
+                    <li>Test on any hangboard, edge or hold</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ── PRODUCT RANGE ── -->
+        <section class="module" id="range">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2 text-center">
+                <h2 class="module-title font-alt">The Trade Range</h2>
+                <div class="module-subtitle font-serif">
+                  Made from premium hardwoods and shaped around real finger
+                  ergonomics.
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-3 b2b-item">
+                <i class="fa-solid fa-weight-hanging" aria-hidden="true"></i>
+                <h3>Lifting Edges</h3>
+                <p>The Classic, Ergo and Forge series.</p>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 b2b-item">
+                <i class="fa-solid fa-grip-lines" aria-hidden="true"></i>
+                <h3>Hangboards</h3>
+                <p>The Nomad series of full 60cm fingerboards.</p>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 b2b-item">
+                <i class="fa-solid fa-door-open" aria-hidden="true"></i>
+                <h3>Mounting</h3>
+                <p>Threshold, a no-drill interface for pull-up bars.</p>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 b2b-item">
+                <i class="fa-solid fa-hand" aria-hidden="true"></i>
+                <h3>Recovery</h3>
+                <p>Pulley Splints, a set of 3D printed finger supports.</p>
+              </div>
+            </div>
+            <div class="text-center">
+              <a href="/shop/" class="btn btn-d btn-round">Browse the shop</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- ── CATALOGUE ── -->
+        <section class="module b2b-catalogue" id="catalogue">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="module-title font-alt">B2B Catalogue</h2>
+                <div class="module-subtitle font-serif">
+                  See the full range, product codes and specifications in one
+                  place.
+                </div>
+                <a
+                  href="/assets/catalogue/astur-climbing-catalogue-2026.pdf"
+                  class="btn btn-border-w btn-round"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >View the catalogue</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ── HOW IT WORKS ── -->
+        <section class="module" id="process">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2 text-center">
+                <h2 class="module-title font-alt">How It Works</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-3 b2b-item">
+                <span class="b2b-step">1</span>
+                <h3>Enquire</h3>
+                <p>Tell us about your business and what you need.</p>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 b2b-item">
+                <span class="b2b-step">2</span>
+                <h3>Plan</h3>
+                <p>We work out the right products, quantities and services.</p>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 b2b-item">
+                <span class="b2b-step">3</span>
+                <h3>Quote</h3>
+                <p>You get a quote with pricing, timings and delivery.</p>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 b2b-item">
+                <span class="b2b-step">4</span>
+                <h3>Deliver</h3>
+                <p>We fulfil your order or schedule your sessions.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ── FAQ ── -->
+        <section class="module b2b-alt b2b-faq" id="faq">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2 text-center">
+                <h2 class="module-title font-alt">Common Questions</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6">
+                <h3>How much does it cost?</h3>
+                <p>
+                  We quote each order individually, based on the products,
+                  quantities and services you need.
+                </p>
+                <h3>Is there a minimum order?</h3>
+                <p>
+                  Share the quantities you have in mind and we'll confirm any
+                  minimums in your quote.
+                </p>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <h3>Where do you deliver?</h3>
+                <p>
+                  Tell us where you're based and we'll include delivery options
+                  in your quote.
+                </p>
+                <h3>Where do assessments take place?</h3>
+                <p>
+                  We're based at The Climbing Hangar in London. If you'd like
+                  sessions elsewhere, tell us your location and group size.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr class="divider-d" />
+
+        <!-- ── ENQUIRY FORM ── -->
+        <footer class="footer bg-dark">
+          <section class="module-small" id="enquire">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                  <h2 class="module-title font-alt">Request a Quote</h2>
+                  <div class="module-subtitle font-serif"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                  <form
+                    id="b2bForm"
+                    action="https://api.web3forms.com/submit"
+                    method="POST"
+                  >
+                    <input
+                      type="hidden"
+                      name="access_key"
+                      value="8c927691-64a5-49e3-83d3-bc0a9ef55f3f"
+                    />
+                    <input
+                      type="hidden"
+                      name="subject"
+                      value="New B2B enquiry from asturclimbing.com"
+                    />
+                    <div class="form-group">
+                      <label class="sr-only" for="name">Name</label>
+                      <input
+                        class="form-control"
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Your Name*"
+                        required="required"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label class="sr-only" for="company">Company</label>
+                      <input
+                        class="form-control"
+                        type="text"
+                        id="company"
+                        name="company"
+                        placeholder="Company*"
+                        required="required"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label class="sr-only" for="email">Email</label>
+                      <input
+                        class="form-control"
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Work Email*"
+                        required="required"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label class="sr-only" for="business_type"
+                        >Business type</label
+                      >
+                      <select
+                        class="form-control"
+                        id="business_type"
+                        name="business_type"
+                        required="required"
+                      >
+                        <option value="">Business Type*</option>
+                        <option>Climbing gym</option>
+                        <option>Retailer</option>
+                        <option>Coach or team</option>
+                        <option>Other</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label class="sr-only" for="interest">Interested in</label>
+                      <select
+                        class="form-control"
+                        id="interest"
+                        name="interest"
+                        required="required"
+                      >
+                        <option value="">Interested In*</option>
+                        <option>Wholesale and retail</option>
+                        <option>Custom branding</option>
+                        <option>Assessments</option>
+                        <option>Project Hangman</option>
+                        <option>More than one of these</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label class="sr-only" for="quantity"
+                        >Estimated quantity</label
+                      >
+                      <input
+                        class="form-control"
+                        type="text"
+                        id="quantity"
+                        name="estimated_quantity"
+                        placeholder="Estimated Quantity or Group Size"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label class="sr-only" for="message">Message</label>
+                      <textarea
+                        class="form-control"
+                        rows="7"
+                        id="message"
+                        name="message"
+                        placeholder="Tell Us What You Need*"
+                        required="required"
+                      ></textarea>
+                    </div>
+                    <div class="text-center">
+                      <div class="form-group">
+                        <div
+                          required="required"
+                          class="h-captcha"
+                          data-captcha="true"
+                        ></div>
+                      </div>
+                      <button
+                        class="btn btn-block btn-round btn-d"
+                        type="submit"
+                      >
+                        Send Enquiry
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <p class="copyright font-alt">
+                  &copy; 2026&nbsp;Astur Climbing, All Rights Reserved
+                </p>
+                <div class="footer-social-links">
+                  <a
+                    href="https://www.instagram.com/asturclimbing/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Astur Climbing on Instagram"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <!-- /.main -->
+
+      <!-- SCROLL UP BUTTON -->
+      <div class="scroll-up">
+        <a href="#totop"><i class="fa fa-angle-double-up"></i></a>
+      </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="../assets/lib/jquery/dist/jquery.js"></script>
+    <script src="../assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../assets/js/plugins.js" defer></script>
+    <script src="../assets/js/main.js"></script>
+
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+    <script>
+      const form = document.getElementById("b2bForm");
+
+      form.addEventListener("submit", function (e) {
+        const hCaptcha = form.querySelector(
+          "textarea[name=h-captcha-response]"
+        ).value;
+
+        if (!hCaptcha) {
+          e.preventDefault();
+          alert("Please fill out captcha field");
+          return;
+        }
+      });
+    </script>
+
+    <script>
+      window.onbeforeunload = () => {
+        for (const form of document.getElementsByTagName("form")) {
+          form.reset();
+        }
+      };
+    </script>
+  </body>
+</html>
