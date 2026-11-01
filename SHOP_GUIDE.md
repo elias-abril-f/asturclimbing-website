@@ -89,17 +89,17 @@ Each product entry has two groups of fields — shop card fields (used everywher
 
 | SKU      | Name                    | Category               | Visible |
 |----------|-------------------------|------------------------|---------|
-| LC-D2010 | Classic Duo             | Lifting Block — Classic | Yes |
-| LC-H20   | Classic Hybrid          | Lifting Block — Classic | No  |
-| LE-VDE   | Ergo VDE                | Lifting Block — Ergo   | Yes |
-| LE-S20   | Ergo Step               | Lifting Block — Ergo   | Yes |
-| LE-O20   | Ergo Offset             | Lifting Block — Ergo   | Yes |
-| LF-BLK   | Forge Block             | Lifting Block — Forge  | Yes |
-| FB-NMC   | Nomad Classic           | Hangboard — Classic    | Yes |
-| FB-NMF   | Nomad Forge             | Hangboard — Forge      | Yes |
+| LE-C-D2010 | Classic Duo             | Lifting Block — Classic | Yes |
+| LE-C-H20   | Classic Hybrid          | Lifting Block — Classic | No  |
+| LE-E-VDE   | Ergo VDE                | Lifting Block — Ergo   | Yes |
+| LE-E-S-3DP-WHI   | Ergo Step               | Lifting Block — Ergo   | Yes |
+| LE-E-O-3DP-WHI   | Ergo Offset             | Lifting Block — Ergo   | Yes |
+| LE-FG-WD-WHI   | Forge Block             | Lifting Block — Forge  | Yes |
+| FB-NMC-W   | Nomad Classic           | Hangboard — Classic    | Yes |
+| FB-NMFG-WHI   | Nomad Forge             | Hangboard — Forge      | Yes |
 | MT-THD   | Threshold               | Mount System           | No  |
 | AP-FRT   | Founders Ridge T-Shirt  | Apparel                | Yes |
-| AC-SPL   | Pulley Splints          | Accessories            | Yes |
+| AC-PSS   | Pulley Splints          | Accessories            | Yes |
 
 ---
 

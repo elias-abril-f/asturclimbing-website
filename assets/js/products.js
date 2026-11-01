@@ -15,7 +15,7 @@
  */
 
 const ASTUR_PRODUCTS = {
-  'LC-D2010': {
+  'LE-C-D2010': {
     name: 'Classic Duo',
     tagline: 'Double-sided hardwood lifting edge — 20mm & 10mm',
     url: '/shop/products/classic-duo/',
@@ -38,7 +38,7 @@ const ASTUR_PRODUCTS = {
       { title: 'Natural Oak Surface ', text: 'Real wood provides a skin-friendly, natural-friction surface that improves with use. Consistent, predictable contact across every session.' },
     ],
     specs: [
-      { label: 'SKU', value: 'LC-D2010' },
+      { label: 'SKU', value: 'LE-C-D2010' },
       { label: 'Edge Depths', value: '20 mm edge & 10 mm edge (5 mm roundover on each) and jug hold' },
       { label: 'Material', value: 'Solid Hardwood' },
       { label: 'Dimensions', value: '25 × 44 × 120 mm' },
@@ -51,10 +51,10 @@ const ASTUR_PRODUCTS = {
       { src: '/assets/images/products/Classic/Classic2010/Square/004.webp', alt: 'Classic Duo 004' },
 
     ],
-    relatedSkus: ['LE-VDE', 'LF-BLK', 'FB-NMC', 'AC-SPL'],
+    relatedSkus: ['LE-E-VDE', 'LE-FG-WD-WHI', 'FB-NMC-W', 'AC-PSS'],
   },
 
-  'LC-H20': {
+  'LE-C-H20': {
     name: 'Classic Hybrid',
     tagline: '20mm wood + 3DP texture edge for high friction training',
     url: '/shop/products/classic-hybrid/',
@@ -77,7 +77,7 @@ const ASTUR_PRODUCTS = {
       { title: 'Integrated jug hold', text: 'Rounded back for pull-ups, shoulder work, and active warmups' },
     ],
     specs: [
-      { label: 'SKU', value: 'LC-H20' },
+      { label: 'SKU', value: 'LE-C-H20' },
       { label: 'Edge A', value: '20mm Straight — Hardwood' },
       { label: 'Edge B', value: '20mm Textured — 3D Printed' },
       { label: 'Dimensions', value: '25 × 44 × 120 mm' },
@@ -90,10 +90,10 @@ const ASTUR_PRODUCTS = {
       { src: '/assets/images/products/Classic/ClassicHybrid/004.webp', alt: 'Classic Hybrid 4' },
       { src: '/assets/images/products/Classic/ClassicHybrid/005.webp', alt: 'Classic Hybrid 5' },
     ],
-    relatedSkus: ['LC-D2010', 'LE-VDE', 'FB-NMC', 'AC-SPL'],
+    relatedSkus: ['LE-C-D2010', 'LE-E-VDE', 'FB-NMC-W', 'AC-PSS'],
   },
 
-  'LC-N20': {
+  'LE-C-N20-WHI': {
     name: 'Classic Nano',
     tagline: 'The smallest portable edge trainer in the Astur range',
     url: '/shop/products/classic-nano/',
@@ -116,7 +116,7 @@ const ASTUR_PRODUCTS = {
       { title: 'Ready to hang anywhere', text: 'Load-tested cord rated to 150kg, no tools required' },
     ],
     specs: [
-      { label: 'SKU', value: 'LC-N20-W / LC-N20-B' },
+      { label: 'SKU', value: 'LE-C-N20-WHI / LE-C-N20-BLK' },
       { label: 'Edge', value: '20mm Straight — Hardwood' },
       { label: 'Dimensions', value: '25 × 30 × 106 mm' },
       { label: 'Weight', value: 'Under 30g' },
@@ -129,10 +129,10 @@ const ASTUR_PRODUCTS = {
       { src: '/assets/images/products/Classic/ClassicNano/005.webp', alt: 'Classic Nano 5' },
       { src: '/assets/images/products/Classic/ClassicNano/006.webp', alt: 'Classic Nano 6' },
     ],
-    relatedSkus: ['LC-D2010', 'LC-H20', 'FB-NMC', 'FB-NMF'],
+    relatedSkus: ['LE-C-D2010', 'LE-C-H20', 'FB-NMC-W', 'FB-NMFG-WHI'],
   },
 
-  'LE-VDE': {
+  'LE-E-VDE': {
     name: 'Ergo VDE',
     tagline: '20mm straight wood + 20mm variable depth 3DP edge',
     url: '/shop/products/ergo-vde/',
@@ -154,7 +154,7 @@ const ASTUR_PRODUCTS = {
       { title: 'Ultra-portable', text: '90g and fits in a chalk bag, pack, or jacket pocket' },
     ],
     specs: [
-      { label: 'SKU', value: 'LE-VDE' },
+      { label: 'SKU', value: 'LE-E-VDE' },
       { label: 'Edge A', value: '20mm Straight — Hardwood' },
       { label: 'Edge B', value: '20mm Curved — Ergonomic' },
       { label: 'Dimensions', value: '35 x 44 x 120mm' },
@@ -169,10 +169,10 @@ const ASTUR_PRODUCTS = {
       { src: '/assets/images/products/Ergo/VDE20/2020-5-square.webp', alt: 'Ergo VDE — integrated jug hold on rounded back' },
       { src: '/assets/images/products/Ergo/VDE20/Crag1Square.webp', alt: 'Ergo VDE clipped to chalk bag at the crag' },
     ],
-    relatedSkus: ['LE-S20', 'LE-O20', 'LC-D2010', 'AC-SPL'],
+    relatedSkus: ['LE-E-S-3DP-WHI', 'LE-E-O-3DP-WHI', 'LE-C-D2010', 'AC-PSS'],
   },
 
-  'LE-S20': {
+  'LE-E-S-3DP-WHI': {
     name: 'Ergo Step',
     tagline: '20mm stepped hardwood edge for progressive loading',
     url: '/shop/products/ergo-step/',
@@ -194,7 +194,7 @@ const ASTUR_PRODUCTS = {
       { title: 'Available in black and white', text: 'Two colourway options with identical geometry and performance' },
     ],
     specs: [
-      { label: 'SKU', value: 'LE-S20' },
+      { label: 'SKU', value: 'LE-E-S-3DP-WHI / LE-E-S-3DP-BLK / LE-E-S-WD-WHI / LE-E-S-WD-BLK' },
       { label: 'Edge Depth', value: '20mm across all steps' },
       { label: 'Contact Surface', value: 'Natural oak' },
       { label: 'Step Profile', value: 'Matched to index, middle, ring, and little finger lengths' },
@@ -206,10 +206,10 @@ const ASTUR_PRODUCTS = {
       { src: '/assets/images/products/Ergo/Stepped/003.webp', alt: 'Ergo Step — top-down view of stepped edge positions for each finger' },
       { src: '/assets/images/products/Ergo/Stepped/004.webp', alt: 'Ergo Step — side profile showing 20mm depth across all steps' },
     ],
-    relatedSkus: ['LE-VDE', 'LE-O20', 'LC-D2010', 'AC-SPL'],
+    relatedSkus: ['LE-E-VDE', 'LE-E-O-3DP-WHI', 'LE-C-D2010', 'AC-PSS'],
   },
 
-  'LE-O20': {
+  'LE-E-O-3DP-WHI': {
     name: 'Ergo Offset',
     tagline: '20mm stepped + offset hardwood edge for technical training',
     url: '/shop/products/ergo-offset/',
@@ -231,7 +231,7 @@ const ASTUR_PRODUCTS = {
       { title: 'Available in black and white', text: 'Two colourway options with identical geometry and performance' },
     ],
     specs: [
-      { label: 'SKU', value: 'LE-O20' },
+      { label: 'SKU', value: 'LE-E-O-3DP-WHI / LE-E-O-3DP-BLK / LE-E-O-WD-WHI / LE-E-O-WD-BLK' },
       { label: 'Edge Depth', value: '20mm at every step (via anatomical offsets)' },
       { label: 'Contact Surface', value: 'Natural oak' },
       { label: 'Step Profile', value: 'Length and depth offset matched to natural hand curve' },
@@ -248,10 +248,10 @@ const ASTUR_PRODUCTS = {
       { src: '/assets/images/products/Ergo/Offset/White/ergoOffsetWhiteSquare1.webp', alt: 'Ergo Offset white view 1' },
       { src: '/assets/images/products/Ergo/Offset/White/ergoOffsetWhiteSquare2.webp', alt: 'Ergo Offset white view 2' },
     ],
-    relatedSkus: ['LE-S20', 'LE-VDE', 'LF-BLK', 'AC-SPL'],
+    relatedSkus: ['LE-E-S-3DP-WHI', 'LE-E-VDE', 'LE-FG-WD-WHI', 'AC-PSS'],
   },
 
-  'LF-BLK': {
+  'LE-FG-WD-WHI': {
     name: 'Forge Block',
     tagline: 'Metal backplate + hybrid edge system — modular',
     url: '/shop/products/forge-block/',
@@ -273,7 +273,7 @@ const ASTUR_PRODUCTS = {
       { title: 'Upgradeable edge system', text: 'Swap in metal edges for durability or premium hardwood for a refined feel as your training evolves' },
     ],
     specs: [
-      { label: 'SKU', value: 'LF-BLK' },
+      { label: 'SKU', value: 'LE-FG-WD-WHI / LE-FG-WD-BLK' },
       { label: 'Edge Depth', value: '20mm' },
       { label: 'Contact Surface', value: 'Real wood over 3D-printed core' },
       { label: 'Backplate', value: 'Precision-machined metal' },
@@ -286,10 +286,10 @@ const ASTUR_PRODUCTS = {
       { src: '/assets/images/products/Forge/004.webp', alt: 'Forge Block white front' },
       { src: '/assets/images/products/Forge/002.webp', alt: 'Forge Block white in use' },
     ],
-    relatedSkus: ['LE-O20', 'FB-NMC', 'LC-D2010', 'AC-SPL'],
+    relatedSkus: ['LE-E-O-3DP-WHI', 'FB-NMC-W', 'LE-C-D2010', 'AC-PSS'],
   },
 
-  'FB-NMC': {
+  'FB-NMC-W': {
     name: 'Nomad Classic',
     tagline: '40cm carbon core fingerboard with magnetic Classic Duo blocks',
     url: '/shop/products/nomad-classic/',
@@ -312,7 +312,7 @@ const ASTUR_PRODUCTS = {
       { title: 'Integrated jug hold', text: 'Rounded back of each unit for pull-ups, shoulder warmups, and recovery hangs' },
     ],
     specs: [
-      { label: 'SKU', value: 'FB-NMC' },
+      { label: 'SKU', value: 'FB-NMC-W' },
       { label: 'Edge A', value: '20mm Curved — Ergonomic' },
       { label: 'Edge B', value: '20mm Straight — Natural Oak' },
       { label: 'Weight', value: '186g (carbon) / 206g (aluminium)' },
@@ -327,10 +327,10 @@ const ASTUR_PRODUCTS = {
       { src: '/assets/images/products/hangboards/classicNomad/005.webp', alt: 'Nomad Classic 005' },
       { src: '/assets/images/products/hangboards/classicNomad/007.webp', alt: 'Nomad Classic 007' },
     ],
-    relatedSkus: ['LC-D2010', 'LF-BLK', 'LE-VDE', 'AC-SPL'],
+    relatedSkus: ['LE-C-D2010', 'LE-FG-WD-WHI', 'LE-E-VDE', 'AC-PSS'],
   },
 
-  'FB-NME': {
+  'FB-NMERG-W': {
     name: 'Nomad Ergo',
     tagline: '40cm carbon core fingerboard with magnetic Ergo VDE blocks',
     url: '/shop/products/nomad-ergo/',
@@ -354,7 +354,7 @@ const ASTUR_PRODUCTS = {
       { title: 'Integrated jug hold', text: 'Rounded back of each Ergo VDE for pull-ups, shoulder warmups, and recovery hangs' },
     ],
     specs: [
-      { label: 'SKU', value: 'FB-NME' },
+      { label: 'SKU', value: 'FB-NMERG-W' },
       { label: 'Edge A', value: '20mm Straight — Hardwood' },
       { label: 'Edge B', value: '20mm Curved — Ergonomic' },
       { label: 'Weight', value: '~225g (carbon connector) / ~255g (aluminium)' },
@@ -365,10 +365,10 @@ const ASTUR_PRODUCTS = {
       { src: '/assets/images/products/Ergo/VDE20/2020-2-square.webp', alt: 'Nomad Ergo — detail' },
       { src: '/assets/images/products/Ergo/VDE20/2020-3-square.webp', alt: 'Nomad Ergo — in use' },
     ],
-    relatedSkus: ['LE-VDE', 'FB-NMC', 'LC-D2010', 'AC-SPL'],
+    relatedSkus: ['LE-E-VDE', 'FB-NMC-W', 'LE-C-D2010', 'AC-PSS'],
   },
 
-  'FB-NMF': {
+  'FB-NMFG-WHI': {
     name: 'Nomad Forge',
     tagline: '40cm carbon core fingerboard with modular Forge blocks',
     url: '/shop/products/nomad-forge/',
@@ -392,7 +392,7 @@ const ASTUR_PRODUCTS = {
       { title: 'Integrated jug holds', text: 'Rounded back of each unit provides a comfortable full-hand grip for pull-ups and warmup hangs' },
     ],
     specs: [
-      { label: 'SKU', value: 'FB-NMF' },
+      { label: 'SKU', value: 'FB-NMFG-WHI / FB-NMFG-BLK' },
       { label: 'Edge Depth', value: '20mm (wooden, included)' },
       { label: 'Backplate', value: '2 x precision-machined metal' },
       { label: 'Connector', value: 'Carbon fibre rod' },
@@ -406,7 +406,7 @@ const ASTUR_PRODUCTS = {
       { src: '/assets/images/products/hangboards/forgeNomad/005.png', alt: 'Nomad Forge' },
 
     ],
-    relatedSkus: ['LF-BLK', 'FB-NMC', 'LC-D2010', 'AC-SPL'],
+    relatedSkus: ['LE-FG-WD-WHI', 'FB-NMC-W', 'LE-C-D2010', 'AC-PSS'],
   },
 
   'MT-THD': {
@@ -442,7 +442,7 @@ const ASTUR_PRODUCTS = {
       { src: '/assets/images/products/wall-mount-placeholder.jpg', alt: 'Threshold detail' },
       { src: '/assets/images/products/wall-mount-placeholder.jpg', alt: 'Threshold in use' },
     ],
-    relatedSkus: ['FB-NMC', 'LF-BLK', 'LC-D2010', 'AC-SPL'],
+    relatedSkus: ['FB-NMC-W', 'LE-FG-WD-WHI', 'LE-C-D2010', 'AC-PSS'],
   },
 
   'AP-FRT': {
@@ -480,10 +480,10 @@ const ASTUR_PRODUCTS = {
       { src: '/assets/images/products/apparel-merch/tshirts/foundersRidge/lightGreen.webp', alt: 'Founders Ridge T-Shirt — Light Green' },
       { src: '/assets/images/products/apparel-merch/tshirts/foundersRidge/pink.webp', alt: 'Founders Ridge T-Shirt — Pink' },
     ],
-    relatedSkus: ['AC-SPL', 'LC-D2010', 'LE-VDE', 'FB-NMC'],
+    relatedSkus: ['AC-PSS', 'LE-C-D2010', 'LE-E-VDE', 'FB-NMC-W'],
   },
 
-  'AC-SPL': {
+  'AC-PSS': {
     name: 'Pulley Splints',
     tagline: '3D printed finger support splints for pulley injury recovery',
     url: '/shop/products/pulley-splints/',
@@ -506,7 +506,7 @@ const ASTUR_PRODUCTS = {
       { title: 'Reusable and washable', text: 'Built for long-term rehab use, not single-session tape jobs' },
     ],
     specs: [
-      { label: 'SKU', value: 'AC-SPL / AC-SPL-C' },
+      { label: 'SKU', value: 'AC-PSS / AC-PSS-C' },
       { label: 'Sizing measured by', value: 'Finger height, nail side to palm side' },
       {
         label: 'Size chart',
@@ -532,7 +532,7 @@ const ASTUR_PRODUCTS = {
       { src: '/assets/images/products/PSS/pss-3-square.webp', alt: 'Pulley Splints — side view showing lightweight breathable design' },
       { src: '/assets/images/products/PSS/pss-4-square.webp', alt: 'Pulley Splints — size range from 10mm to 19mm finger height' },
     ],
-    relatedSkus: ['LC-D2010', 'LE-VDE', 'FB-NMC', 'LF-BLK'],
+    relatedSkus: ['LE-C-D2010', 'LE-E-VDE', 'FB-NMC-W', 'LE-FG-WD-WHI'],
   },
 };
 
