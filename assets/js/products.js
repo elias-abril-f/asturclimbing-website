@@ -116,7 +116,7 @@ const ASTUR_PRODUCTS = {
       { title: 'Ready to hang anywhere', text: 'Load-tested cord rated to 150kg, no tools required' },
     ],
     specs: [
-      { label: 'SKU', value: 'LC-N20' },
+      { label: 'SKU', value: 'LC-N20-W / LC-N20-B' },
       { label: 'Edge', value: '20mm Straight — Hardwood' },
       { label: 'Dimensions', value: '25 × 30 × 106 mm' },
       { label: 'Weight', value: 'Under 30g' },
@@ -392,7 +392,7 @@ const ASTUR_PRODUCTS = {
       { title: 'Integrated jug holds', text: 'Rounded back of each unit provides a comfortable full-hand grip for pull-ups and warmup hangs' },
     ],
     specs: [
-      { label: 'SKU', value: 'FB-FNM' },
+      { label: 'SKU', value: 'FB-NMF' },
       { label: 'Edge Depth', value: '20mm (wooden, included)' },
       { label: 'Backplate', value: '2 x precision-machined metal' },
       { label: 'Connector', value: 'Carbon fibre rod' },
@@ -506,7 +506,7 @@ const ASTUR_PRODUCTS = {
       { title: 'Reusable and washable', text: 'Built for long-term rehab use, not single-session tape jobs' },
     ],
     specs: [
-      { label: 'SKU', value: 'AC-SPL' },
+      { label: 'SKU', value: 'AC-SPL / AC-SPL-C' },
       { label: 'Sizing measured by', value: 'Finger height, nail side to palm side' },
       {
         label: 'Size chart',
